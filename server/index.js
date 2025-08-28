@@ -27,7 +27,7 @@ app.use(helmet());
 // ✅ CORS (replace with your real frontend domain)
 app.use(
   cors({
-    origin: "https://social-media-14.onrender.com/",
+    origin: "https://social-media-14.onrender.com",
     credentials: true,
   })
 );
